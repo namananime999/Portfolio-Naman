@@ -6,7 +6,7 @@ function Home() {
     <div className="home">
       <div className="home-content">
         <h1 className="typing-animation">Hi, I'm Vikhyath</h1>
-        <p>Computer Science Student | Video & Photo Editor</p>
+        <p>Student | Video & Photo Editor</p>
         <a href="#contact" className="btn">Contact Me</a>
       </div>
     </div>
