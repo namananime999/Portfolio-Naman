@@ -1,0 +1,100 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Navbar on top */
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-card {
+  max-width: 900px;
+  margin-top: 80px; /* spacing below Navbar */
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  background: transparent; /* let the gradient show through */
+  color: #fff;
+}
+
+.header-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #dcdcdc;
+}
+
+.header-subtitle span {
+  color: #ff6f61; /* accent color like About section border */
+  font-weight: 600;
+}
+
+.header-button {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.header-button:hover {
+  background-color: #e85c50;
+  transform: translateY(-3px);
+}
+
+/* Navbar in dark background */
+body.dark-theme .header-card {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .header-card {
+    margin-top: 60px;
+    padding: 30px 20px;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .header-button {
+    padding: 10px 24px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-card {
+    margin-top: 60px;
+    padding: 30px 20px;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .header-button {
+    padding: 10px 24px;
+    font-size: 0.9rem;
+  }
+}
