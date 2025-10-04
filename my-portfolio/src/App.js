@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './components/Header';
-import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -13,13 +12,12 @@ import './animations.css';
 function App() {
   return (
     <div className="app-container">
-      <Header />
+      {/* Hero / Home section */}
+      <section id="home" className="fade-in">
+        <Header />
+      </section>
 
       <main>
-        <section id="home" className="fade-in">
-          <Home />
-        </section>
-
         <section id="about" className="fade-in">
           <About />
         </section>
@@ -37,7 +35,7 @@ function App() {
         </section>
       </main>
 
-      <Footer /> {/* ✅ Footer added here */}
+      <Footer />
     </div>
   );
 }

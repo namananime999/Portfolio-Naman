@@ -1,13 +1,14 @@
 .about-section {
-  background: linear-gradient(to right, #f0f9ff, #fdf6f0);
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* same as home */
   padding: 70px 25px;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 119, 182, 0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
   max-width: 900px;
   margin: 40px auto;
   text-align: center;
   transition: all 0.3s ease-in-out;
-  font-family: 'Poppins', sans-serif; /* ✅ Add custom font */
+  font-family: 'Poppins', sans-serif;
+  color: #fff; /* default text color white */
 }
 
 .about-section:hover {
@@ -15,18 +16,18 @@
 }
 
 .about-section h2 {
-  color: #2f2f2f;
+  color: #f1f1f1;
   font-size: 2.4rem;
   margin-bottom: 30px;
-  font-weight: 700; /* ✅ Make heading bold */
+  font-weight: 700;
 }
 
 .about-section p {
   font-size: 1.15rem;
-  color: #333;
+  color: #dcdcdc;
   line-height: 1.8;
   margin-bottom: 20px;
-  font-weight: 500; /* ✅ Make paragraph semi-bold */
+  font-weight: 400;
 }
 
 .about-img {
@@ -35,5 +36,27 @@
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 25px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* softer white glow */
+  border: 3px solid #ff6f61; /* matching accent color */
 }
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 50px 15px;
+    margin: 20px auto;
+  }
+
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+
+  .about-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+

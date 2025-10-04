@@ -5,17 +5,25 @@ function Projects() {
   return (
     <div className="projects-section fade-in">
       <h2>My Projects</h2>
-      
+
       <div className="projects-grid">
 
-        {/* 🖼 Project 1 */}
+        {/* 🖥 Website Project */}
         <div className="project-card">
-          <img src="/images1/OIP.webp" alt="Project 1" />
-          <h3>Webcam Project</h3>
-          <p>This is a browser-based webcam app that lets users view live video from their device camera.
-Built using HTML, CSS, and JavaScript with the getUserMedia API for real-time video access.</p>
+          <h3>Petrol pump  Website</h3>
+          <p>
+            A responsive petrol pump website built using React, Tailwind, and Framer Motion. 
+            Showcases projects, skills, and contact information.
+          </p>
+          <a 
+            href="https://sapthagiri-enterprise-indianoil.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="project-link"
+          >
+            Visit Website
+          </a>
         </div>
-
 
       </div>
     </div>

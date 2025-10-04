@@ -1,20 +1,25 @@
-import React from 'react';
-import './Header.css';
-import { FaHome, FaUser, FaCode, FaFolder, FaEnvelope } from 'react-icons/fa';
+import React from "react";
+import Navbar from "./Navbar"; // import the Navbar component
+import "./Header.css"; // header-specific styles
 
 function Header() {
   return (
-    <header className="navbar">
-      <div className="logo">MyPortfolio</div>
-      <nav>
-        <ul className="nav-links">
-          <li><a href="#home"><FaHome /> Home</a></li>
-          <li><a href="#about"><FaUser /> About</a></li>
-          <li><a href="#skills"><FaCode /> Skills</a></li>
-          <li><a href="#projects"><FaFolder /> Projects</a></li>
-          <li><a href="#contact"><FaEnvelope /> Contact</a></li>
-        </ul>
-      </nav>
+    <header className="header">
+      {/* Navbar sits at the top */}
+      <Navbar />
+
+      {/* Hero / Intro Section */}
+      <div className="header-card">
+        <h1 className="header-title">Hi, I’m Naman 👋</h1>
+        <p className="header-subtitle">
+          A passionate Computer Science and Engg student exploring{" "}
+          <span>Web Development</span>, <span>React</span>, and{" "}
+          <span>Spring Boot</span>.
+        </p>
+        <a href="#projects" className="header-button">
+          View My Work
+        </a>
+      </div>
     </header>
   );
 }
