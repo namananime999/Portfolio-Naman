@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Vikhyath10-portfolio/static/css/main.dc319b86.css",
-    "main.js": "/Vikhyath10-portfolio/static/js/main.bd2881a3.js",
-    "static/js/453.438d9e50.chunk.js": "/Vikhyath10-portfolio/static/js/453.438d9e50.chunk.js",
-    "index.html": "/Vikhyath10-portfolio/index.html",
-    "main.dc319b86.css.map": "/Vikhyath10-portfolio/static/css/main.dc319b86.css.map",
-    "main.bd2881a3.js.map": "/Vikhyath10-portfolio/static/js/main.bd2881a3.js.map",
-    "453.438d9e50.chunk.js.map": "/Vikhyath10-portfolio/static/js/453.438d9e50.chunk.js.map"
+    "main.css": "/Portfolio-Naman/static/css/main.dc319b86.css",
+    "main.js": "/Portfolio-Naman/static/js/main.24725b74.js",
+    "static/js/453.438d9e50.chunk.js": "/Portfolio-Naman/static/js/453.438d9e50.chunk.js",
+    "index.html": "/Portfolio-Naman/index.html",
+    "main.dc319b86.css.map": "/Portfolio-Naman/static/css/main.dc319b86.css.map",
+    "main.24725b74.js.map": "/Portfolio-Naman/static/js/main.24725b74.js.map",
+    "453.438d9e50.chunk.js.map": "/Portfolio-Naman/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc319b86.css",
-    "static/js/main.bd2881a3.js"
+    "static/js/main.24725b74.js"
   ]
 }
